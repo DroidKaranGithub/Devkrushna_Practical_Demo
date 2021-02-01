@@ -54,13 +54,6 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, Toolbar.OnMenuItemC
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-//        //Initialize places
-//        Places.initialize(this, getString(R.string.api_key))
-//
-//        //Create new places client instance
-//        placesClient = Places.createClient(this)
-
         fusedLocationProviderClient =
             LocationServices.getFusedLocationProviderClient(this@MapActivity)
 
@@ -148,32 +141,6 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, Toolbar.OnMenuItemC
         return false
     }
 
-
-    /*  private fun NearBySearch() {
-          fun run(): PlacesSearchResponse {
-              var request = PlacesSearchResponse()
-              val context = GeoApiContext.Builder()
-                  .apiKey(Constant.API_KEY)
-                  .build()
-              val location =
-                  com.google.maps.model.LatLng(currentLocation.latitude, currentLocation.longitude)
-              try {
-                  request = PlacesApi.nearbySearchQuery(context, location)
-                      .radius(5000)
-                      .language("en")
-                      .await()
-                  Log.d(mTAG, "Places Response -> $request")
-              } catch (e: ApiException) {
-                  e.printStackTrace()
-              } catch (e: IOException) {
-                  e.printStackTrace()
-              } catch (e: InterruptedException) {
-                  e.printStackTrace()
-              } finally {
-                  return request
-              }
-          }
-      }*/
 
     private fun run(): PlacesSearchResponse {
         var request: PlacesSearchResponse = PlacesSearchResponse()
