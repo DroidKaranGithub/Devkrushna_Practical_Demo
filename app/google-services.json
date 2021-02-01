@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "939481193011",
+    "project_id": "devkrushna-demo",
+    "storage_bucket": "devkrushna-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939481193011:android:0820f75d86335ae0c32146",
+        "android_client_info": {
+          "package_name": "app.kiran.devkrushna_practical_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939481193011-k30ackfon1m0sn16cssoqrp9jpk1k40d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.kiran.devkrushna_practical_demo",
+            "certificate_hash": "a8683dff5e660b4799127dd18aaf9aeb70d99c11"
+          }
+        },
+        {
+          "client_id": "939481193011-b1a5b2opi433g5il4rf00uk5hrnlco3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1PmCBBBSBKeZtQhDPChNf46UNd-AUTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939481193011-b1a5b2opi433g5il4rf00uk5hrnlco3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

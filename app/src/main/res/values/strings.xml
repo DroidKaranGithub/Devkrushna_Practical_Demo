@@ -1,5 +1,8 @@
 <resources>
+
     <string name="app_name">DevKrushna Demo</string>
-    <string name="api_key">AIzaSyBrbm70j1HZ7D6C5ZSbxNq6pq7Yq_70FVs</string>
+    <string name="api_key">AIzaSyBeKvYWBGv20scpua2SeensmMFD79FrUCQ</string>
+    <string name="list">List</string>
+    <string name="title_near_by_place">Near By Place</string>
 
 </resources>
